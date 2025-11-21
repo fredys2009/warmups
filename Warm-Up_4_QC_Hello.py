@@ -1,7 +1,7 @@
 """
 Filename: Warm-Up_4_QC_Hello.py
-Author: <Lastname, Firstname>
-Created: <MM/DD/YYYY>
+Author: <Carcamo, Fredys>
+Created: <11/21/2025>
 Instructor: Holtslander
 """
 
@@ -12,8 +12,12 @@ def hello():
     :return: None
     """
     ### YOUR CODE GOES HERE ###
+    name = input("what is your name?\n")
+    print(f"Hello {name}")
 
 
 ### YOU SHOULD NOT NEED TO CHANGE ANYTHING HERE ###
 if __name__ == '__main__':
+
     hello()
+
