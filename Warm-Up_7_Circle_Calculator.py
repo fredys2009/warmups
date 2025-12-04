@@ -1,7 +1,7 @@
 """
 Filename: Warm-Up_7_Circle_Calculator.py
-Author: <Lastname, Firstname>
-Created: <MM/DD/YYYY>
+Author: <Carcamo, Fredys>
+Created: <12/04/2025>
 Instructor: Holtslander
 """
 
@@ -15,6 +15,12 @@ def circle_calculator():
     :return: None
     """
     ### YOUR CODE GOES HERE ###
+    a = input("Enter the radius of your circle:")
+    a = float(a)
+    Area = 3.14 * a **2
+    Circumference = 2 * 3.14 * a
+
+    print(f"The area of your radius is {Area}, and your circuference is {Circumference}")
     
 
 
